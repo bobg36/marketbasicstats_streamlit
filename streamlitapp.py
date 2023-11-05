@@ -75,7 +75,7 @@ else:
 available_cryptos = df.columns[2:5]  # Assuming the crypto columns start from the 4th column
 
 # Add the division options for AXS/ETH and SLP/ETH
-division_options = [f"{crypto}/ETH" for crypto in available_cryptos]
+division_options = [f"{crypto}/ ETH" for crypto in available_cryptos]
 
 # Remove "ETH/ETH" from the division options
 division_options = [option for option in division_options if option != "ETH/ETH"]
